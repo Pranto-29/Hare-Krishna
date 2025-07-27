@@ -6,15 +6,16 @@
 body {
    
     font-family: Arial, sans-serif;
-    background-color: antiquewhite;
+    background-color:violet;
 }
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(images/cart/cart.jpg);
+    background-image: url(images/banner/parallax.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    background-color: #333;
 }
 nav {
     display: flex;
@@ -64,13 +65,14 @@ nav img {
     transform: translate(-50%, -50%);
 }
 .text-box h1 {
-    color:blue;
+    color:chocolate;
     font-size: 40px;
     font-weight: bold;
 }
 .text-box p {
-   color:gold;
+   color:#0000ff;
     font-size: 20px;
+    font-weight: bold;
 }
 .hero {
     padding: 10px;
@@ -209,7 +211,7 @@ color: green;
     background-color: turquoise;
     border: 1px solid #ddd;
     border-radius: 15px;
-    box-shadow: 4px 4px 4px green;
+    /* box-shadow: 4px 4px 4px green; */
     width: 250px;
     padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -254,7 +256,7 @@ color: green;
 }
 
 .des h4 {
-    color: #28a745;
+    color: #777;
     font-size: 1.3rem;
     margin: 5px 0;
 }
@@ -290,23 +292,18 @@ span{
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
+    padding:20px ;
 }
-.men h3{
-    margin-top: 30px;
-    color:black;
-    padding: 10px;
-    font-size: 20px;
+
+.men .blog{
+    color:#28a745;
 }
 .men h1{
     color:red;
         margin-top: 20xpx;
         margin-right: 30px;
 }
-.men h6{
-    text-align: center;
-    justify-content: center;
-    color:blue;
-}
+
 .men img{
     width: 200px;
 }
@@ -317,8 +314,26 @@ span{
 }
 footer{
     background-color: #777;
-    color:#ddd
+    color:#ddd;
+    width: 100%;
 }
-.img{
-    color:white;
-}
+
+ .meains{
+      text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 4px;
+    padding: 5px;
+ }
+ .foter-simple{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 18px;
+    color:chocolate;
+    font-weight: bold;
+ }
